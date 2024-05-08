@@ -1,9 +1,7 @@
 return {
-  {
     "neovim/nvim-lspconfig",
-     config = function()
+    config = function()
         require("nvchad.configs.lspconfig").defaults()
         require "configs.lspconfig"
-     end,
-  }
+    end
 }
